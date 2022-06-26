@@ -13,8 +13,7 @@
         "guzzlehttp/guzzle": "^7.4",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
-        "pusher/pusher-php-server": "^7.0",
-        "tinify/tinify": "^1.5"
+        "pusher/pusher-php-server": "^7.0"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

@@ -8,8 +8,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
-use Tinify\Source;
-use Tinify\Tinify;
 
 class RegisterController extends Controller
 {
@@ -41,8 +39,6 @@ class RegisterController extends Controller
     public function __construct()
     {
         $this->middleware('guest');
-        $this->optimizer = new Tinify();
-        $this->optimizer->setKey(env('TINY_KEY'));
     }
 
     /**
